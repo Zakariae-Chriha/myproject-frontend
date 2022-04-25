@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 5px 5px black;
+}
+input {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+button {
+  width: 70px;
+  height: 35;
+  border-radius: 5px;
+  background-color: blue;
+  margin-top: 5px;
+  transition: 1.5s, ease;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: blueviolet;
+}
+.main {
+  width: auto;
+  height: auto;
+  border: 5px black solid;
+  margin-top: 10px;
+}
